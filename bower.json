@@ -6,6 +6,6 @@
     "backbone": "~1.0.0",
     "jquery": "~1.8.3",
     "underscore": "~1.5.2",
-    "socket.io": "~0.9.15"
+    "socket.io-client": "~0.9.15"
   }
 }

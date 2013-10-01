@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="/javascripts/components/socket.io-client/dist/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/chat.js"></script>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+
+    <label for="userName">User name:</label><input name="userName" id="userName" type="text"></input><span id="feedback"></span>
+
+    <p>
+      <div id="msgWindow" class="shadow"></div>
+    </p>
+
+    <p>
+      <div>
+        <table>
+          <tr><td><select id="users"></select></td></tr>
+          <tr><td><input type="text" name="msg" id="msg" disabled="true"></input></td></tr>
+        </table>
+      <div>
+    </p>
+  </body>
+</html>
