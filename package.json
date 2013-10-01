@@ -1,12 +1,14 @@
 {
-  "name": "application-name",
+  "name": "Socket Playground",
+  "description": "sample Socket.io/Express project",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.4.0",
-    "hjs": "*"
+    "express": "~3.4.0",
+    "hjs": "*",
+    "socket.io": "~0.9.15",
+    "bower": "~1.2.7"
   }
 }
